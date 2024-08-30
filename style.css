@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(rgba(46, 83, 188, 0.779),rgba(167, 55, 156, 0.459),rgb(29, 29, 194));
+    color: #fff;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    box-shadow: -8px -8px 15px rgba(189, 59, 59, 0.1);
+    border: 0.5px solid #fff;
+    border-radius: 10px;
+    padding: 28px 32px;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: 8px 8px 4px #b8adca4a, 8px 8px 0px #7493b4;
+}
+
+.container h1{
+    font-size: 1.4rem;
+    margin-block: 8px;
+}
+
+.inputBox{
+    position: relative;
+}
+.inputBox span{
+    position: absolute;
+    top: 16px;
+    right: 6px;
+    color: #150b0b;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.passBox{
+    box-shadow: 0px 3px 15px rgb(84, 84, 84,0.1);
+    border-radius: 10px;
+    background: transparent;
+    text-align: left;
+    color:#150b0b;
+    width: 300px;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    margin-block: 8px;
+    text-overflow: ellipsis;
+}
+
+.row{
+    display: flex;
+    margin-block: 8px;
+
+}
+
+.row p, .row label{
+    flex-basis: 100%;
+    font-size: 18px;
+}
+
+.row input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.getBtn{
+    border: none;
+    outline: none;
+    background-color: rgb(139, 148, 226);
+    padding: 12px 14px;
+    color: #fff;
+    font-size: 18px;
+    margin-block: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.getBtn:hover{
+    background-color: rgb(55, 55, 95);
+}
